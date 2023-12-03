@@ -40,23 +40,10 @@
     text-align: left;
   }
   .dept{
-    text-align: center;   
+    text-align: center;  
+    display: inline-block; 
   }
-  .button {
-    background-color: #FF9999;
-  color: black;
-  border: 2px solid #83f28f;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    transition-duration: 0.4s;
-  }
-  .button:hover {
-    background-color: #83f28f; 
-    color: white;
-  }
+
   .topnav a {
     float: left;
     display: block;
@@ -106,3 +93,47 @@
       text-align: left;
     }
   }
+  
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+}
+
+.box button {
+  display: block;
+  margin-top: 20px;
+  background-color: #FF9999;
+  color: black;
+  border: 2px solid #83f28f;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    width:100%;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.box button:hover {
+  background-color: #83f28f; 
+  color: white;
+}
+
+
