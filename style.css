@@ -151,3 +151,15 @@ img {
   padding-left: 20px;
 }
 
+.row {
+    margin: 0px 0px;
+    padding-top:20px;
+    padding-left:10px;
+    width:100%;
+    background-color:white;   
+}
+.column {
+  float: left;
+  width: 16.33%;
+  padding: 0 10px;
+}
